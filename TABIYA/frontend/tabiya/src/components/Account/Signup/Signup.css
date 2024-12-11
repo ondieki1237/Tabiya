@@ -1,0 +1,115 @@
+/* Signup.css */
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1; /* Light gray background for the page */
+  margin: 0;
+  padding: 0;
+}
+
+/* Center the form container */
+.form-container {
+  background-color: #fff; /* White background for the form */
+  padding: 30px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px; /* Limit form container size */
+  margin: 50px auto; /* Center the form horizontally */
+  text-align: center;
+}
+
+h1 {
+  color: #007bff; /* Blue color for the heading */
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+/* Label styling */
+label {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 5px;
+  text-align: left;
+  display: block;
+}
+
+/* Input and Select field styling */
+input,
+select {
+  width: 100%; /* Full width */
+  padding: 12px;
+  margin: 8px 0; /* Space between inputs */
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+input[type="email"],
+input[type="tel"],
+input[type="text"],
+input[type="password"],
+select {
+  background-color: #f9f9f9; /* Light gray background for inputs */
+}
+
+input:focus,
+select:focus {
+  border-color: #007bff; /* Blue border when the input is focused */
+  outline: none;
+  background-color: #eef7ff; /* Light blue background when focused */
+}
+
+/* Button styling */
+button {
+  background-color: #007bff; /* Blue button background */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%; /* Make button full-width */
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Link styling */
+a {
+  color: #007bff; /* Blue color for the link */
+  text-decoration: none;
+  font-size: 14px;
+}
+
+a:hover {
+  text-decoration: underline; /* Underline link on hover */
+}
+
+/* Footer message styling */
+p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Small screen responsiveness */
+@media screen and (max-width: 600px) {
+  .form-container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  input,
+  select,
+  button {
+    font-size: 16px;
+  }
+}

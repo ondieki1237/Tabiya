@@ -1,0 +1,15 @@
+.testimonial-container {
+  background-color: #f8f9fa;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.testimonial-card {
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}

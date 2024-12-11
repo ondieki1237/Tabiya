@@ -1,0 +1,30 @@
+/* UserSettings.css */
+
+.settings-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #007bff;
+    font-size: 24px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    color: #007bff;
+  }
+  
+  li:hover {
+    text-decoration: underline;
+  }
+  

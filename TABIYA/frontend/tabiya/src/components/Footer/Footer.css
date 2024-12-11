@@ -1,0 +1,11 @@
+.footer-container {
+  background-color: #001f3f;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-links {
+  font-size: 24px;
+  margin: 10px;
+}

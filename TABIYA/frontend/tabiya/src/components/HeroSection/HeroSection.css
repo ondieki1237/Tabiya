@@ -1,0 +1,47 @@
+.hero-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f8ff;
+  color: #333;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: center; /* Center content horizontally */
+  gap: 20px; /* Space between logo and text */
+  margin-bottom: 20px;
+}
+
+.hero-logo {
+  width: 150px; /* Adjust the size of the logo */
+  height: auto;
+}
+
+.hero-text h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.hero-text p {
+  font-size: 1.2em;
+  color: #666;
+  margin: 5px 0;
+}
+
+.hero-btn {
+  padding: 5px 10px; /* Smaller padding */
+  font-size: 0.8em; /* Smaller font size */
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 3px; /* Smaller border radius for a more compact look */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  /* Optional: Make button responsive to container size */
+  width: auto; /* Allow button to adjust size based on content */
+}
+
+.hero-btn:hover {
+  background-color: #0056b3;
+}

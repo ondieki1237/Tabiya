@@ -1,0 +1,19 @@
+.features-container {
+  background-color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.feature-card {
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.feature-icon {
+  font-size: 40px;
+  color: #007bff;
+}
